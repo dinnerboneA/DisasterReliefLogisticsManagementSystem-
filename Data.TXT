@@ -1,0 +1,642 @@
+{
+    "emergencyRequests": [
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 201,
+            "location": "KL",
+            "requestType": "Medical",
+            "status": "READY_FOR_ASSIGNMENT",
+            "timestamp": "2025-07-24T01:00:00Z",
+            "urgencyLevel": 4,
+            "vehicle_Id": []
+        },
+        {
+            "Supply_Id": [
+                "S101",
+                "S127",
+                "S128",
+                "S105",
+                "S123",
+                "S124"
+            ],
+            "Volunteer_Id": [
+                "V101",
+                "V102",
+                "V103",
+                "V104",
+                "V106",
+                "V110"
+            ],
+            "id": 202,
+            "location": "Penang",
+            "requestType": "Flood",
+            "status": "FULLY_DISPATCHED",
+            "timestamp": "2025-07-24T01:15:00Z",
+            "urgencyLevel": 5,
+            "vehicle_Id": [
+                "VH101",
+                "VH104",
+                "VH102",
+                "VH105",
+                "VH103"
+            ]
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 203,
+            "location": "Selangor",
+            "requestType": "Earthquake",
+            "status": "READY_FOR_ASSIGNMENT",
+            "timestamp": "2025-07-24T01:30:00Z",
+            "urgencyLevel": 3,
+            "vehicle_Id": []
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [
+                "V105",
+                "V112",
+                "V114",
+                "V116",
+                "V118",
+                "V120",
+                "V123"
+            ],
+            "id": 204,
+            "location": "Johor",
+            "requestType": "Search & Rescue",
+            "status": "READY_FOR_ASSIGNMENT",
+            "timestamp": "2025-07-24T01:45:00Z",
+            "urgencyLevel": 5,
+            "vehicle_Id": [
+                "VH108",
+                "VH111"
+            ]
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 205,
+            "location": "KL",
+            "requestType": "Earthquake",
+            "status": "READY_FOR_ASSIGNMENT",
+            "timestamp": "2025-07-25T23:36:28Z",
+            "urgencyLevel": 3,
+            "vehicle_Id": []
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 206,
+            "location": "Penang",
+            "requestType": "Search & Rescue",
+            "status": "PENDING",
+            "timestamp": "2025-07-25T23:38:07Z",
+            "urgencyLevel": 1,
+            "vehicle_Id": []
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 207,
+            "location": "Johor",
+            "requestType": "Medical",
+            "status": "READY_FOR_ASSIGNMENT",
+            "timestamp": "2025-07-25T23:39:18Z",
+            "urgencyLevel": 1,
+            "vehicle_Id": []
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 208,
+            "location": "Johor",
+            "requestType": "Earthquake",
+            "status": "READY_FOR_ASSIGNMENT",
+            "timestamp": "2025-07-25T23:39:58Z",
+            "urgencyLevel": 1,
+            "vehicle_Id": []
+        },
+        {
+            "Supply_Id": [],
+            "Volunteer_Id": [],
+            "id": 209,
+            "location": "Perak",
+            "requestType": "Earthquake",
+            "status": "PENDING",
+            "timestamp": "2025-07-25T23:43:29Z",
+            "urgencyLevel": 5,
+            "vehicle_Id": []
+        }
+    ],
+    "supplies": [
+        {
+            "id": "S101",
+            "is_deployed": true,
+            "packedAt": "2025-07-23T10:00:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S102",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:05:00Z",
+            "type": "Food & Drink"
+        },
+        {
+            "id": "S103",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:10:00Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S104",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:15:00Z",
+            "type": "Rescue Equipment"
+        },
+        {
+            "id": "S105",
+            "is_deployed": true,
+            "packedAt": "2025-07-23T10:20:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S106",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:25:00Z",
+            "type": "Food & Drink"
+        },
+        {
+            "id": "S107",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:30:00Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S108",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:35:00Z",
+            "type": "Rescue Equipment"
+        },
+        {
+            "id": "S109",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:40:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S110",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:45:00Z",
+            "type": "Food & Drink"
+        },
+        {
+            "id": "S111",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:50:00Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S112",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T10:55:00Z",
+            "type": "Rescue Equipment"
+        },
+        {
+            "id": "S113",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:00:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S114",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:05:00Z",
+            "type": "Food & Drink"
+        },
+        {
+            "id": "S115",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:10:00Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S116",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:15:00Z",
+            "type": "Rescue Equipment"
+        },
+        {
+            "id": "S117",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:20:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S118",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:25:00Z",
+            "type": "Food & Drink"
+        },
+        {
+            "id": "S119",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:30:00Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S120",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:35:00Z",
+            "type": "Rescue Equipment"
+        },
+        {
+            "id": "S121",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:40:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S122",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T11:45:00Z",
+            "type": "Food & Drink"
+        },
+        {
+            "id": "S123",
+            "is_deployed": true,
+            "packedAt": "2025-07-23T11:50:00Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S124",
+            "is_deployed": true,
+            "packedAt": "2025-07-23T11:55:00Z",
+            "type": "Rescue Equipment"
+        },
+        {
+            "id": "S125",
+            "is_deployed": false,
+            "packedAt": "2025-07-23T12:00:00Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S126",
+            "is_deployed": false,
+            "packedAt": "2025-07-25T18:25:10Z",
+            "type": "Medical Supplies"
+        },
+        {
+            "id": "S127",
+            "is_deployed": true,
+            "packedAt": "2025-07-25T18:25:21Z",
+            "type": "Shelter Materials"
+        },
+        {
+            "id": "S128",
+            "is_deployed": true,
+            "packedAt": "2025-07-25T18:25:56Z",
+            "type": "Rescue Equipment"
+        }
+    ],
+    "vehicles": [
+        {
+            "id": "VH101",
+            "lastUsed": "2025-07-26T16:32:05Z",
+            "status": "AVAILABLE",
+            "type": "Ambulance",
+            "use_age": 1
+        },
+        {
+            "id": "VH102",
+            "lastUsed": "2025-07-26T16:32:05Z",
+            "status": "IN_USE",
+            "type": "Transport_Car",
+            "use_age": 1
+        },
+        {
+            "id": "VH103",
+            "lastUsed": "2025-07-26T16:32:05Z",
+            "status": "IN_USE",
+            "type": "Transport_Van",
+            "use_age": 1
+        },
+        {
+            "id": "VH104",
+            "lastUsed": "2025-07-26T16:32:05Z",
+            "status": "IN_USE",
+            "type": "Ambulance",
+            "use_age": 1
+        },
+        {
+            "id": "VH105",
+            "lastUsed": "2025-07-26T16:32:05Z",
+            "status": "IN_USE",
+            "type": "Transport_Car",
+            "use_age": 1
+        },
+        {
+            "id": "VH106",
+            "lastUsed": "2025-07-26T04:11:12Z",
+            "status": "AVAILABLE",
+            "type": "Transport_Van",
+            "use_age": 0
+        },
+        {
+            "id": "VH107",
+            "lastUsed": "2025-07-26T00:31:35Z",
+            "status": "AVAILABLE",
+            "type": "Ambulance",
+            "use_age": 0
+        },
+        {
+            "id": "VH108",
+            "lastUsed": "2025-07-26T16:32:17Z",
+            "status": "IN_USE",
+            "type": "Transport_Car",
+            "use_age": 1
+        },
+        {
+            "id": "VH109",
+            "lastUsed": "2025-07-22T20:30:00Z",
+            "status": "AVAILABLE",
+            "type": "Transport_Van",
+            "use_age": 0
+        },
+        {
+            "id": "VH110",
+            "lastUsed": "2025-07-26T02:56:35Z",
+            "status": "AVAILABLE",
+            "type": "Ambulance",
+            "use_age": 0
+        },
+        {
+            "id": "VH111",
+            "lastUsed": "2025-07-26T16:32:17Z",
+            "status": "IN_USE",
+            "type": "Transport_Car",
+            "use_age": 1
+        },
+        {
+            "id": "VH112",
+            "lastUsed": "2025-07-22T22:00:00Z",
+            "status": "AVAILABLE",
+            "type": "Transport_Van",
+            "use_age": 0
+        },
+        {
+            "id": "VH113",
+            "lastUsed": "2025-07-26T03:23:03Z",
+            "status": "AVAILABLE",
+            "type": "Ambulance",
+            "use_age": 0
+        },
+        {
+            "id": "VH114",
+            "lastUsed": "2025-07-22T23:00:00Z",
+            "status": "AVAILABLE",
+            "type": "Transport_Car",
+            "use_age": 0
+        },
+        {
+            "id": "VH115",
+            "lastUsed": "2025-07-22T23:30:00Z",
+            "status": "AVAILABLE",
+            "type": "Transport_Van",
+            "use_age": 0
+        },
+        {
+            "id": "VH116",
+            "lastUsed": "",
+            "status": "AVAILABLE",
+            "type": "Transport_Car",
+            "use_age": 0
+        },
+        {
+            "id": "VH117",
+            "lastUsed": "2025-07-26T04:08:23Z",
+            "status": "AVAILABLE",
+            "type": "Ambulance",
+            "use_age": 0
+        },
+        {
+            "id": "VH118",
+            "lastUsed": "2025-07-26T04:11:12Z",
+            "status": "AVAILABLE",
+            "type": "Ambulance",
+            "use_age": 0
+        }
+    ],
+    "volunteers": [
+        {
+            "contact": "+6012-1111111",
+            "id": "V101",
+            "name": "Ali Rahman",
+            "registeredAt": "2025-07-20T08:00:00Z",
+            "skill": "Medical",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-2222222",
+            "id": "V102",
+            "name": "Siti Hawa",
+            "registeredAt": "2025-07-20T08:30:00Z",
+            "skill": "Medical",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-3333333",
+            "id": "V103",
+            "name": "Lim Zhi Wei",
+            "registeredAt": "2025-07-20T09:00:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-4444444",
+            "id": "V104",
+            "name": "Nora Ismail",
+            "registeredAt": "2025-07-20T09:15:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-5555555",
+            "id": "V105",
+            "name": "Faris Ahmad",
+            "registeredAt": "2025-07-20T09:30:00Z",
+            "skill": "Medical",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-6666666",
+            "id": "V106",
+            "name": "Hannah Wong",
+            "registeredAt": "2025-07-20T09:45:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-7777777",
+            "id": "V107",
+            "name": "Musa Karim",
+            "registeredAt": "2025-07-20T10:00:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-8888888",
+            "id": "V108",
+            "name": "Aishah Idris",
+            "registeredAt": "2025-07-20T10:15:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-9999999",
+            "id": "V109",
+            "name": "Thinesh Raj",
+            "registeredAt": "2025-07-20T10:30:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-1010101",
+            "id": "V110",
+            "name": "Zara Faiz",
+            "registeredAt": "2025-07-20T10:45:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-1112121",
+            "id": "V111",
+            "name": "Adam Malik",
+            "registeredAt": "2025-07-20T11:00:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-1213141",
+            "id": "V112",
+            "name": "Nurul Amira",
+            "registeredAt": "2025-07-20T11:15:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-1314151",
+            "id": "V113",
+            "name": "Syed Azmi",
+            "registeredAt": "2025-07-20T11:30:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-1415161",
+            "id": "V114",
+            "name": "Tan Mei Ling",
+            "registeredAt": "2025-07-20T11:45:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-1516171",
+            "id": "V115",
+            "name": "Khalid Hassan",
+            "registeredAt": "2025-07-20T12:00:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-1617181",
+            "id": "V116",
+            "name": "Wani Aziz",
+            "registeredAt": "2025-07-20T12:15:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-1718191",
+            "id": "V117",
+            "name": "Faizul Nasir",
+            "registeredAt": "2025-07-20T12:30:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-1819202",
+            "id": "V118",
+            "name": "Aina Farhana",
+            "registeredAt": "2025-07-20T12:45:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-1920212",
+            "id": "V119",
+            "name": "Hakim Nor",
+            "registeredAt": "2025-07-20T13:00:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-2021222",
+            "id": "V120",
+            "name": "Chong Wai Leong",
+            "registeredAt": "2025-07-20T13:15:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-2223242",
+            "id": "V121",
+            "name": "Rashidah Omar",
+            "registeredAt": "2025-07-20T13:30:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-4344454",
+            "id": "V122",
+            "name": "Khairul Anuar",
+            "registeredAt": "2025-07-20T13:45:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "+6012-2324252",
+            "id": "V123",
+            "name": "Amira Sani",
+            "registeredAt": "2025-07-20T14:00:00Z",
+            "skill": "General",
+            "status": "DEPLOYED"
+        },
+        {
+            "contact": "+6012-2425262",
+            "id": "V124",
+            "name": "Hafiz Ramli",
+            "registeredAt": "2025-07-20T14:15:00Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "061178133",
+            "id": "V125",
+            "name": "Adel zinab",
+            "registeredAt": "2025-07-25T19:28:09Z",
+            "skill": "General",
+            "status": "AVAILABLE"
+        },
+        {
+            "contact": "8689798",
+            "id": "V126",
+            "name": "mahmood",
+            "registeredAt": "2025-07-25T19:31:54Z",
+            "skill": "Medical",
+            "status": "AVAILABLE"
+        }
+    ]
+}
